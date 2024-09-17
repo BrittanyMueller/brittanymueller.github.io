@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "PlantTracker",
+    "description": "Android house plant monitoring app.",
+    "imgPath": "",
+    "github": "https://gitlab.larrycloud.ca/plant-tracker/plant-tracker",
+    "projectPage": "/projects/planttracker"
+  },
+  {
+    "id": 2,
+    "title": "Beeverse",
+    "description": "Unity bee colony survival city building game.",
+    "imgPath": "",
+    "github": "https://gitlab.larrycloud.ca/cis4820/Beeverse",
+    "projectPage": "/projects/beeverse"
+  },
+  {
+    "id": 3,
+    "title": "RecipeShare",
+    "description": "React Native recipe storage and sharing app.",
+    "imgPath": "",
+    "github": "https://github.com/easondan/Recipe-App"
+  },
+  {
+    "id": 4,
+    "title": "GryphHacks Website",
+    "description": "React website for UoG's 2022 hackathon, GryphHacks.",
+    "imgPath": "",
+    "github": "https://github.com/GryphHacks/GryphHacks2022"
+  }
+]

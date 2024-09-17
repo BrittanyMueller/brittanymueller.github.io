@@ -1,0 +1,11 @@
+.card {
+  padding: 1rem;
+  background-color: var(--soft-green);
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}

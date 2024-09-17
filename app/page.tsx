@@ -1,14 +1,15 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./Home.module.css";
+import Button from "./components/Button";
 
-export default function Home() {
+const HomePage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageWrapper}>
         <Image 
           src="/profile_cropped.png"
-          layout="fill"
-          objectFit="cover"
+          width={300}
+          height={300}
           alt="Picture of the author"
         />
       </div>
@@ -17,7 +18,10 @@ export default function Home() {
         <p>
           Welcome to my page! I'm Brittany Mueller, a recent Computer Science graduate and aspiring backend developer.
         </p>
+        <a href="/resume.pdf" target="_blank"><button>View Resume</button></a>
       </div>
     </div>
   );
 }
+
+export default HomePage;

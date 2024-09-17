@@ -4,14 +4,9 @@ import "./globals.css";
 import Link from "next/link";
 import Image from 'next/image'
 
-const geistSans = localFont({
+const nunitoFont = localFont({
   src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+  variable: "--font-nunito",
   weight: "100 900",
 });
 
@@ -25,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout ({children} : Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${nunitoFont.variable}`}>
         <header>
           <nav>
             <div>
