@@ -1,0 +1,61 @@
+.unityContainer {
+  display: flex;
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;        
+  width: 100%;              
+  height: 100%;
+  position: relative; /* Relative to fix loading bar overlay */
+}
+
+.canvasWrapper {
+  width: 100%;                  
+  height: 0;                    
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+  position: relative;     /* Relative to fix loading bar overlay */
+}
+
+.unityCanvas {
+  /* Canvas fills entire wrapper, maintaining aspect ratio */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #231f20;  /* Unity background colour */
+}
+
+.loadingContainer {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+
+  /* Absolutely position on top of unity canvas */
+  position: absolute; 
+  top: 50%;                  
+  left: 50%;                   
+  transform: translate(-50%, -50%);
+  z-index: 1;  /* Force bar above canvas */                  
+}
+
+/* Bar background */
+.loadingBar {
+  margin-top: 1rem;   /* Space between bar and loading text */
+  width: 400px;                  
+  height: 1rem;                
+  border-radius: 10px;         
+  overflow: hidden;           
+  border: white solid 3px;
+}
+
+/* Loading bar progress */
+.progress {
+  height: 100%;                /* Full height of the loading bar */
+  background-color: var(--cool-green);   /* Green color for loading */
+  transition: all 0.2s;
+}
+
+.link {
+  color: var(--teal);
+  text-decoration: underline;
+}
