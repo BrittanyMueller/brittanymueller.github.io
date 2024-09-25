@@ -13,7 +13,7 @@ const ProjectPage = () => {
           key={project.id}
           title={project.title}
           description={project.description}
-          imgPath="/placeholder.jpg"
+          images={project.images}
           github={project.github}  
           projectPage={project.projectPage}
         />

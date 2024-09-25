@@ -1,11 +1,13 @@
 .projectGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  display: flex;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr)); */
   gap: 1rem;
 }
 
 @media (max-width: 660px) {
-  .projectGrid {
+  /* .projectGrid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
+  } */
 }
