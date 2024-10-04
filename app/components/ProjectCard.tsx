@@ -11,7 +11,7 @@ import { Carousel } from 'react-responsive-carousel';
 interface ProjectDetails {
   title: string
   images: string[]
-  description: string
+  description: string[]
   github: string
   projectPage?: string
 }
@@ -44,7 +44,9 @@ const ProjectCard : React.FunctionComponent<ProjectDetails> = (props) => {
         <a href={props.github} target="_blank" rel="noopener noreferrer">
           <FaGithub size={"2rem"}/>
         </a>
-        <p>{props.description}</p>
+        { props.description.map((desc, index) => (
+          <p key={index}>{desc}</p>
+        ))}
         { props.projectPage && <Link href={props.projectPage}>More Info</Link> }
       </div>
     </div>

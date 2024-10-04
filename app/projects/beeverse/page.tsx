@@ -26,7 +26,7 @@ const BeeversePage = () => {
         })
       }
     }
-  }, [isLoaded])  // Loaded changes to false when navigating away
+  }, [isLoaded, unload])  // Loaded changes to false when navigating away
 
   return (
     <div className={styles.unityContainer}>

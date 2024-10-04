@@ -19,13 +19,6 @@
   --dark-grey: #4A4A4A;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
 * {
   /* Reset default margin/padding */
   box-sizing: border-box;

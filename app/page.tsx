@@ -1,13 +1,12 @@
 import Image from "next/image";
 import styles from "./Home.module.css";
-import Button from "./components/Button";
 
 const HomePage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageWrapper}>
         <Image 
-          src="/profile_cropped.png"
+          src="/profile_cropped.jpg"
           width={300}
           height={300}
           alt="Picture of the author"

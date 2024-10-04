@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "PlantTracker",
-    "description": "Android house plant monitoring app.",
+    "description": ["Android house plant monitoring app."],
     "images" : [],
     "github": "https://gitlab.larrycloud.ca/plant-tracker/plant-tracker",
     "projectPage": "/projects/planttracker"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Beeverse",
-    "description": "Unity bee colony survival city building game.",
+    "description": ["Unity bee colony survival city building game."],
     "images" : [],
     "github": "https://gitlab.larrycloud.ca/cis4820/Beeverse",
     "projectPage": "/projects/beeverse"
@@ -18,18 +18,25 @@
   {
     "id": 3,
     "title": "RecipeShare",
-    "description": "React Native recipe storage and sharing app.",
+    "description": [
+      "Cross-platform recipe sharing app built using React Native and Expo with a Supabase backend",
+      "Includes full CRUD functionality for managing recipes and cookbooks",
+      "Integrates Supabase user authentication to manage account access and sharing cookbooks between users",
+      "Key features: create and favourite recipes, organize them into cookbooks, and share those cookbooks with other users",
+      "Share collections of recipes at once via cookbooks",
+      "Favourite recipes shared with you to copy them to your personal collection"
+    ],
     "images" : [],
     "github": "https://github.com/easondan/Recipe-App"
   },
   {
     "id": 4,
     "title": "GryphHacks Website",
-    "description": "React website for UoG's 2022 hackathon, GryphHacks.",
+    "description": ["React website for UoG's 2022 hackathon, GryphHacks."],
     "images": [
-      "/images/gryphhacks-landing.png",
-      "/images/gryphhacks-about.png",
-      "/images/gryphhacks-contact.png"
+      "/images/gryphhacks/gryphhacks-landing.jpg",
+      "/images/gryphhacks/gryphhacks-about.jpg",
+      "/images/gryphhacks/gryphhacks-contact.jpg"
     ],
     "github": "https://github.com/GryphHacks/GryphHacks2022"
   }
