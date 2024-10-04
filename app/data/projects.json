@@ -2,16 +2,44 @@
   {
     "id": 1,
     "title": "PlantTracker",
-    "description": ["Android house plant monitoring app."],
-    "images" : [],
-    "github": "https://gitlab.larrycloud.ca/plant-tracker/plant-tracker",
-    "projectPage": "/projects/planttracker"
+    "description": [
+      "Android app to track the moisture, light, and humidity levels of houseplants and configure push notifications",
+      "Uses multi‑threaded gRPC Java server to manage communication between the app, database, and Raspberry Pi sensor devices",
+      "Uses Firebase Messenger to send push notifications when plants fall below desired moisture and humidity levels",
+      "Stores plant information, Firebase Storage references, and time series sensor data in a PostgreSQL database",
+      "Currently used to track and maintain my collection of 15+ house plants"
+    ],
+    "images": [
+      "/images/planttracker/add_plant.png",
+      "/images/planttracker/african_violet.png",
+      "/images/planttracker/Kalanchoe.png",
+      "/images/planttracker/plant_list.png"
+    ],
+    "github": "https://gitlab.larrycloud.ca/plant-tracker/plant-tracker"
   },
   {
     "id": 2,
     "title": "Beeverse",
-    "description": ["Unity bee colony survival city building game."],
-    "images" : [],
+    "description": [
+      "3D Unity survival, city-building game where you design, control, and sustain a bee colony",
+      "Keep your bees alive by collecting resources and expanding the colony by building new Honeycombs. ",
+      "The game starts with a single honeycomb inhabited by your Queen Bee, which you must expand from",
+      "Assign Worker Bees tasks to construct honeycombs, collect resources, and raise new Baby Bees",
+      "Bees have a lifespan and will passively die from old age over time. The game will end if your Queen Bee dies without a replacement or all bees in your colony die, so keep on building!"
+    ],
+    "images": [
+      "/images/beeverse/titlescreen.JPG",
+      "/images/beeverse/flowers.JPG",
+      "/images/beeverse/building.JPG",
+      "/images/beeverse/buildprogress.JPG",
+      "/images/beeverse/working.JPG",
+      "/images/beeverse/eggtype.JPG",
+      "/images/beeverse/napper.JPG",
+      "/images/beeverse/troublemaker.JPG",
+      "/images/beeverse/night.JPG",
+      "/images/beeverse/rip.JPG",
+      "/images/beeverse/gameover.JPG"
+    ],
     "github": "https://gitlab.larrycloud.ca/cis4820/Beeverse",
     "projectPage": "/projects/beeverse"
   },
@@ -26,13 +54,32 @@
       "Share collections of recipes at once via cookbooks",
       "Favourite recipes shared with you to copy them to your personal collection"
     ],
-    "images" : [],
+    "images": [
+      "/images/recipeshare/Screenshot_1728005232.png",
+      "/images/recipeshare/Screenshot_1728005299.png",
+      "/images/recipeshare/Screenshot_1728006610.png",
+      "/images/recipeshare/Screenshot_1728007679.png",
+      "/images/recipeshare/Screenshot_1728008357.png",
+      "/images/recipeshare/Screenshot_1728009159.png",
+      "/images/recipeshare/Screenshot_1728009766.png",
+      "/images/recipeshare/Screenshot_1728009770.png",
+      "/images/recipeshare/Screenshot_1728009793.png",
+      "/images/recipeshare/Screenshot_1728009806.png",
+      "/images/recipeshare/Screenshot_1728010187.png",
+      "/images/recipeshare/Screenshot_1728019322.png",
+      "/images/recipeshare/Screenshot_1728019350.png",
+      "/images/recipeshare/Screenshot_1728019356.png",
+      "/images/recipeshare/Screenshot_1728019371.png",
+      "/images/recipeshare/Screenshot_1728019377.png"
+    ],
     "github": "https://github.com/easondan/Recipe-App"
   },
   {
     "id": 4,
     "title": "GryphHacks Website",
-    "description": ["React website for UoG's 2022 hackathon, GryphHacks."],
+    "description": [
+      "React website for UoG's 2022 hackathon, GryphHacks."
+    ],
     "images": [
       "/images/gryphhacks/gryphhacks-landing.jpg",
       "/images/gryphhacks/gryphhacks-about.jpg",

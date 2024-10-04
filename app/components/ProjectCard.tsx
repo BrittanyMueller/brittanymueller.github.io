@@ -47,7 +47,7 @@ const ProjectCard : React.FunctionComponent<ProjectDetails> = (props) => {
         { props.description.map((desc, index) => (
           <p key={index}>{desc}</p>
         ))}
-        { props.projectPage && <Link href={props.projectPage}>More Info</Link> }
+        { props.projectPage && <Link href={props.projectPage} style={{fontWeight: 'bold', textDecoration: 'underline'}}>Play Game</Link> }
       </div>
     </div>
   )
