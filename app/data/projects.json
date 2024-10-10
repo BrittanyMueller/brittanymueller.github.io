@@ -15,7 +15,8 @@
       "/images/planttracker/Kalanchoe.png",
       "/images/planttracker/plant_list.png"
     ],
-    "github": "https://gitlab.larrycloud.ca/plant-tracker/plant-tracker"
+    "github": "https://gitlab.larrycloud.ca/plant-tracker/plant-tracker",
+    "isMobile": true
   },
   {
     "id": 2,
@@ -55,24 +56,20 @@
       "Favourite recipes shared with you to copy them to your personal collection"
     ],
     "images": [
-      "/images/recipeshare/Screenshot_1728005232.png",
-      "/images/recipeshare/Screenshot_1728005299.png",
-      "/images/recipeshare/Screenshot_1728006610.png",
-      "/images/recipeshare/Screenshot_1728007679.png",
-      "/images/recipeshare/Screenshot_1728008357.png",
-      "/images/recipeshare/Screenshot_1728009159.png",
-      "/images/recipeshare/Screenshot_1728009766.png",
-      "/images/recipeshare/Screenshot_1728009770.png",
-      "/images/recipeshare/Screenshot_1728009793.png",
-      "/images/recipeshare/Screenshot_1728009806.png",
-      "/images/recipeshare/Screenshot_1728010187.png",
-      "/images/recipeshare/Screenshot_1728019322.png",
-      "/images/recipeshare/Screenshot_1728019350.png",
-      "/images/recipeshare/Screenshot_1728019356.png",
-      "/images/recipeshare/Screenshot_1728019371.png",
-      "/images/recipeshare/Screenshot_1728019377.png"
+      "/images/recipeshare/view_recipes.png",
+      "/images/recipeshare/view_menu.png",
+      "/images/recipeshare/add_recipe.png",
+      "/images/recipeshare/view_recipe_ingredients.png",
+      "/images/recipeshare/view_recipe_directions.png",
+      "/images/recipeshare/create_cookbook.png",
+      "/images/recipeshare/add_recipes_cookbook.png",
+      "/images/recipeshare/share_cookbook.png",
+      "/images/recipeshare/manage_members.png",
+      "/images/recipeshare/view_all_cookbooks.png",
+      "/images/recipeshare/view_cookbook.png"
     ],
-    "github": "https://github.com/easondan/Recipe-App"
+    "github": "https://github.com/easondan/Recipe-App",
+    "isMobile": true
   },
   {
     "id": 4,

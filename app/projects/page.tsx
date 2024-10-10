@@ -16,6 +16,7 @@ const ProjectPage = () => {
           images={project.images}
           github={project.github}  
           projectPage={project.projectPage}
+          isMobile={project.isMobile}
         />
       ))}
     </div>

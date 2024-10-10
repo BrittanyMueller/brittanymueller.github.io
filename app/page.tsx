@@ -21,7 +21,7 @@ const HomePage = () => {
           Welcome to my page!  I'm Brittany Mueller, a recent computer science graduate from the University of Guelph.  
           I have experience in a variety of languages and technologies, but my passion is backend development.  
           I enjoy designing and optimizing databases, finding efficient solutions for complex problems, and diving into the details 
-          to figure out how systems work. My hobbies include cooking, keeping my large collection of house plants, and playing video games.   
+          to figure out how systems work. My hobbies include trying new recipes and cuisines, keeping my large collection of house plants, and playing video games.   
         </p>
         <div className={styles.connectWrapper}>
           <a className={styles.resumeBtn} href="/Brittany_Mueller_Resume_2024.pdf" target="_blank">View Resume</a>

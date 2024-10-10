@@ -12,7 +12,6 @@
   text-align: center;
   align-items: center;
   gap: 1rem;
-  margin: 2rem;
 } 
 .details h1 {
   font-size: 4rem;
@@ -79,5 +78,5 @@
   width: auto;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }

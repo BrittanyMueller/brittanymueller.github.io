@@ -65,6 +65,11 @@ body {
   width: auto;
   padding: 3px;
   border-radius: 100rem;
+  transition: transform 0.2s ease;
+}
+
+.home-link img:hover {
+  transform: scale(1.1);
 }
 
 .desktop-only {
@@ -107,6 +112,7 @@ nav ul {
 nav a {
   /* Padding for click area */
   padding: 0.5rem;
+  transition: all 0.1s ease;
 }
 
 ul a:hover {

@@ -1,11 +1,12 @@
 'use client'
+
 import React from 'react'
 import Image from "next/image";
-import styles from './ProjectCard.module.css'
 import Link from 'next/link';
-import { FaGithub } from 'react-icons/fa';
-
+import { FaGithub, FaPlayCircle } from 'react-icons/fa';
+import styles from './ProjectCard.module.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 import { Carousel } from 'react-responsive-carousel';
 
 interface ProjectDetails {
@@ -14,12 +15,12 @@ interface ProjectDetails {
   description: string[]
   github: string
   projectPage?: string
+  isMobile?: boolean
 }
 
 const ProjectCard : React.FunctionComponent<ProjectDetails> = (props) => {
   return (
     <div className={styles.card}>
-
       <Carousel 
         className={styles.carousel}
         showStatus={false} 
@@ -39,17 +40,21 @@ const ProjectCard : React.FunctionComponent<ProjectDetails> = (props) => {
           />
         ))} 
       </Carousel>
-      <div className={styles.contentWrapper}>
-        <h2>{props.title}</h2>
-        <a href={props.github} target="_blank" rel="noopener noreferrer">
-          <FaGithub size={"2rem"}/>
-        </a>
-        <ul>
+      <div className={styles.detailsWrapper}>
+        <div className={styles.titleContainer}>
+          <h2>{props.title}</h2>
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
+            <FaGithub size={"1.5rem"}/>
+          </a>
+          { props.projectPage && <Link href={props.projectPage}>
+            <FaPlayCircle size={"1.5rem"}/>
+          </Link> }
+        </div>
+        <ul className={styles.descriptionList}>
           { props.description.map((desc, index) => (
             <li key={index}>{desc}</li>
           ))}
         </ul>
-        { props.projectPage && <Link href={props.projectPage} style={{fontWeight: 'bold', textDecoration: 'underline'}}>Play Game</Link> }
       </div>
     </div>
   )

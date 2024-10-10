@@ -50,9 +50,10 @@ const BeeversePage = () => {
         />
       </div>
       {/* TODO need another outer container for more content, loading bar relative to unityContainer */}
-      <p> 
-        Beeverse is a bee colony survival city builder. Your objective is to collect and generate enough resources to keep the hive alive!
+      <p style={{marginTop: "1rem"}}> 
+        {/* Beeverse is a bee colony survival city builder. Your objective is to collect and generate enough resources to keep the hive alive! */}
         Beeverse started as a final project in my game programming course but turned into a passion project of mine. 
+        I've taken a break from the project for now, but I have many ideas for new features and gameplay elements I plan to implement one day!
         Check out the GitLab repository to learn the&nbsp;
         <a className={styles.link} href="https://gitlab.larrycloud.ca/cis4820/Beeverse#controls" target="_blank">controls.</a> 
       </p>
