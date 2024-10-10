@@ -44,9 +44,11 @@ const ProjectCard : React.FunctionComponent<ProjectDetails> = (props) => {
         <a href={props.github} target="_blank" rel="noopener noreferrer">
           <FaGithub size={"2rem"}/>
         </a>
-        { props.description.map((desc, index) => (
-          <p key={index}>{desc}</p>
-        ))}
+        <ul>
+          { props.description.map((desc, index) => (
+            <li key={index}>{desc}</li>
+          ))}
+        </ul>
         { props.projectPage && <Link href={props.projectPage} style={{fontWeight: 'bold', textDecoration: 'underline'}}>Play Game</Link> }
       </div>
     </div>
