@@ -40,6 +40,9 @@ export default function RootLayout ({children} : Readonly<{children: React.React
               <li>
                 <Link href="/projects">Projects</Link>
               </li>
+              <li>
+                <a href="/Brittany_Mueller_Resume_2024.pdf" target="_blank">Resume</a>
+              </li>
               {/* <li>
                 <Link href="/experience">Experience</Link>
               </li> */}
