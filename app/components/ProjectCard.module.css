@@ -1,18 +1,17 @@
 .card {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   background-color: var(--soft-green);
   border-radius: 15px;
-  /* overflow: hidden; */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   gap: 1rem;
 }
 
 .detailsWrapper {
-  flex: 1;
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .titleContainer {
@@ -35,16 +34,28 @@
 }
 
 .carousel {
-  max-width: 50%;
-  overflow: hidden;
+  max-width: 50%; /* Restrict carousel to half the card width */
   border-radius: 10px;
-  background-color: #3D3D3D;
+  background-color: var(--off-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .carousel img {
   width: 100%;
   height: auto;  /* Keep aspect ratio */
-  object-fit: contain;
+  object-fit: contain;  
+}
+
+.mobileProject {
+  max-width: 40%; /* Reduce carousel width for mobile projects */
+}
+.mobileProject img {
+  width: 100%;
+  height: auto;
+  max-height: 600px; /* Max height for mobile screenshots */
 }
 
 @media (max-width: 660px) {
@@ -52,7 +63,16 @@
     flex-direction: column;
     align-items: center;
   }
+  .detailsWrapper {
+    align-items: center;
+  }
   .carousel {
     max-width: 100%;
+  }
+  .mobileProject {
+    max-width: 90%; 
+  }
+  .mobileProject img {
+    max-height: 100%; /* Full height on mobile */
   }
 }

@@ -22,7 +22,7 @@ const ProjectCard : React.FunctionComponent<ProjectDetails> = (props) => {
   return (
     <div className={styles.card}>
       <Carousel 
-        className={styles.carousel}
+        className={`${styles.carousel} ${props.isMobile && styles.mobileProject}`}
         showStatus={false} 
         showArrows={true} 
         showThumbs={false} 

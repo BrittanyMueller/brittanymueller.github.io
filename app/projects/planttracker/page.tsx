@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const PlantTrackerPage = () => {
   return (
-    <div>PlantTracker</div>
+    <div>PlantTracker demo not implemented yet!</div>
   )
 }
 
-export default page
+export default PlantTrackerPage
